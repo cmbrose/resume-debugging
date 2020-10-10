@@ -1,0 +1,13 @@
+{
+  "name": "Resume Debugging",
+  "build": {
+    "context": "..",
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VARIANT": "18.04"
+    }
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
