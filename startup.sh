@@ -1,1 +1,2 @@
-do a thing
+chmod 777 ./monitor.sh
+./monitor.sh &
